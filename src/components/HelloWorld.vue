@@ -9,7 +9,11 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="text-blue-500 text-sm-bold">{{ msg }}</h1>
+
+    <div class="container border">test</div>
+    <div class="w-96 h-96 mx-auto shadow-xs">
+  </div>
 
   <p>
     Recommended IDE setup:
